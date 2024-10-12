@@ -1,13 +1,13 @@
 ---
-title: My page
+title: Feed
 type: landing
 
 sections:
   - block: markdown
     content:
-      title: My title
-      subtitle: My subtitle
-      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
+      title: Feed de mastodon
+      # subtitle: My subtitle
+      text: acá sigue una feed de mastodon
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
@@ -26,9 +26,9 @@ sections:
 
 <script>
       const myTimeline = new MastodonTimeline.Init({
-        instanceUrl: "https://mastodon.online",
+        instanceUrl: "https://sigmoid.social",
         timelineType: "profile",
-        userId: "000180745",
-        profileName: "@idotj",
+        userId: "112951258425774547",
+        profileName: "@guia",
       });
     </script>
